@@ -50,20 +50,20 @@ header{
 
 
 /* ---------------------nav bar-------------------------------------- */
-.ui-menu-color-home{
+.ui-menu-color-home a{
 background-color: #e67e22;
 
 }
 
-.ui-menu-color-story{
+.ui-menu-color-story a{
     background-color: purple;
 }
 
-.ui-menu-color-price{
+.ui-menu-color-price a{
 background-color: blue;
 }
 
-.ui-menu-color-downloads{
+.ui-menu-color-downloads a{
 background-color: chartreuse;
 }
 
@@ -86,28 +86,26 @@ background-color: chartreuse;
 
 }
 
-.menuitem{
+.menuitem {
     height: 120px;
     text-align: center;
     padding: 0;
     }
 
-.menuitem a{
+.menuitem a {
     width: 100%;
     text-decoration: none;
     color: white;
     height: 120px;
-
-
 }
 
-.menuitem a i{
+.menuitem a i {
     padding-top: 22px;
     color: #fafafa;
     font-size: 26px;
 }
 
-.menuitem span{
+.menuitem span {
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -116,5 +114,119 @@ background-color: chartreuse;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
+
+}
+
+/* ---------------------hover.css-------------------------------------- */
+
+.hvr-radial-out:before{
+background-color: rgba(0,0,0,0.2);
+height:120px;
+}
+
+/* ---------------------special margins, paddings-------------------------------------- */
+
+h1,h2,h3,h4{
+    margin: 0;
+
+}
+
+.uppercase{
+    text-transform: uppercase;
+
+}
+
+.general-sub{
+     font-family: "Exo",sans-serif;
+     font-weight: 300;
+     color: #fafafa;
+
+}
+
+.inline-block{
+display: inline-block;
+}
+
+.row-table{
+    display: table;
+
+}
+
+.section-column{
+    display: table-cell;
+    padding: 0,30px,30px;
+    float: none;
+}
+
+.section-heading{
+    font-family: "exo", sans-serif;
+    font-weight: 300px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    
+}
+
+
+
+
+
+
+/* ---------------------footer-------------------------------------- */
+
+footer{
+    background-color: #525252;
+    color:#fafafa;
+    min-height: 120px;
+
+}
+
+.cv-pdf i{
+font-size: 18px;
+color: #fafafa;
+text-align: center;
+padding-left: 5px;
+transition: all 0.35s ease-in-out;
+-webkit-transition: all 0.35s ease-in-out;
+-moz-transition: all 0.35s ease-in-out;
+-o-transition: all 0.35s ease-in-out;
+
+}
+
+.cv-pdf i:hover{
+    color:  #e84610
+}
+
+.social-links{
+    padding-bottom: 15px;
+
+}
+
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    line-height: 7px;
+    font-size: 13px;
+    text-align: center;
+    color: #fafafa;
+    background-color: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links i:hover{
+    background-color:  #e84610
+}
+
+#footer-deets{
+    padding: 20px;
+}
+
+/* ---------------------sections in body-------------------------------------- */
+.bg-color-three-reasons{
+    background-color: white;
 
 }
